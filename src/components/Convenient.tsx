@@ -13,10 +13,10 @@ function Convenient() {
     return (
         <>
             <div className='grid items-center gap-8 lg:grid-cols-2 w-full'>
-                <div className='flex lg:justify-end'>
-                    <img src={unsplash} alt="stayWithUs" className='md:h-[36rem] object-cover rounded-2xl' />
+                <div className='flex lg:justify-end w-fit ml-auto rounded-2xl overflow-hidden group '>
+                    <img src={unsplash} alt="stayWithUs" className='md:h-[36rem] object-cover rounded-2xl group-hover:scale-105 duration-500 ease-in-out' />
                 </div>
-                <div className='text-justify'>
+                <div className='text-justify '>
                     <h1 className='font-semibold text-4xl'>Why stay with us</h1>
                     <div className='flex py-2'></div>
                     <div className='flex flex-col items-start py-1'>
